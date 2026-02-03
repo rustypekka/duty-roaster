@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, setActiveTab }) =>
           ))}
         </nav>
         <div className="mt-auto pt-6 border-t border-slate-800 text-xs text-slate-500">
-          v1.0.4 Built with ❤️
+          v1.0.0 Built with ❤️
         </div>
       </aside>
 

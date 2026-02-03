@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppState, Personnel, AbsenceRecord, Holiday, RosterDay, DayType } from './types';
-import { INITIAL_PERSONNEL, STORAGE_KEY } from './constants';
-import Layout from './components/Layout';
-import PersonnelList from './components/PersonnelList';
-import LeaveManager from './components/LeaveManager';
-import RosterView from './components/RosterView';
-import Settings from './components/Settings';
+import { AppState, Personnel, AbsenceRecord, Holiday, RosterDay, DayType } from './types.ts';
+import { INITIAL_PERSONNEL, STORAGE_KEY } from './constants.ts';
+import Layout from './components/Layout.tsx';
+import PersonnelList from './components/PersonnelList.tsx';
+import LeaveManager from './components/LeaveManager.tsx';
+import RosterView from './components/RosterView.tsx';
+import Settings from './components/Settings.tsx';
 
 const App: React.FC = () => {
   const [state, setState] = useState<AppState>(() => {

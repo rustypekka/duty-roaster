@@ -1,6 +1,6 @@
 
-import { Personnel, AbsenceRecord, Holiday, RosterDay, DayType } from '../types';
-import { isSameDate, isWithinRange } from '../utils/dateUtils';
+import { Personnel, AbsenceRecord, Holiday, RosterDay, DayType } from '../types.ts';
+import { isSameDate, isWithinRange } from '../utils/dateUtils.ts';
 
 export const generateDailyRoster = (
   date: string,

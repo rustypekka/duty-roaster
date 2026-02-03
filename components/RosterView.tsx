@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { AppState, RosterDay, DayType, Personnel } from '../types';
-import { getNextDays, formatDisplayDate, getDayName } from '../utils/dateUtils';
-import { generateRoster } from '../services/rosterEngine';
+import { AppState, RosterDay, DayType, Personnel } from '../types.ts';
+import { getNextDays, formatDisplayDate, getDayName } from '../utils/dateUtils.ts';
+import { generateRoster } from '../services/rosterEngine.ts';
 
 interface RosterViewProps {
   state: AppState;
